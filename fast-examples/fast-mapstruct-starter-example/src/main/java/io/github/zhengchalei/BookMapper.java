@@ -1,5 +1,10 @@
-package io.github.zhengchalei;/**
+package io.github.zhengchalei;
+
+import org.mapstruct.Mapper;
+
+/**
  * @author <a href="mailto:stone981023@gmail.com">zhengchalei</a>
  **/
-public class BookMapper {
+@Mapper
+public interface BookMapper extends BaseMapper<Book, BookDto, BookVo> {
 }

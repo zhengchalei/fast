@@ -1,17 +1,14 @@
 package io.github.zhengchalei;
 
+import io.github.zhengchalei.matadata.Dto;
+import lombok.Data;
+
 /**
  * @author <a href="mailto:stone981023@gmail.com">zhengchalei</a>
  **/
-public class BookVo {
+@Data
+public class BookDto implements Dto {
 
     private String name;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }
