@@ -1,4 +1,4 @@
-package io.github.zhengchalei;
+package io.github.zhengchalei.mapstruct.example;
 
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;

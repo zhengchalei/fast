@@ -1,7 +1,7 @@
-package io.github.zhengchalei;
+package io.github.mapstruct;
 
-import io.github.zhengchalei.matadata.Dto;
-import io.github.zhengchalei.matadata.Vo;
+import io.github.mapstruct.matadata.Vo;
+import io.github.mapstruct.matadata.Dto;
 import org.mapstruct.MappingTarget;
 
 import java.util.Map;

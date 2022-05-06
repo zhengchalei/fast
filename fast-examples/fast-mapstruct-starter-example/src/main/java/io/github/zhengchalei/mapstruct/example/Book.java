@@ -1,13 +1,12 @@
-package io.github.zhengchalei;
+package io.github.zhengchalei.mapstruct.example;
 
-import io.github.zhengchalei.matadata.Dto;
 import lombok.Data;
 
 /**
  * @author <a href="mailto:stone981023@gmail.com">zhengchalei</a>
  **/
 @Data
-public class BookDto implements Dto {
+public class Book {
 
     private String name;
 

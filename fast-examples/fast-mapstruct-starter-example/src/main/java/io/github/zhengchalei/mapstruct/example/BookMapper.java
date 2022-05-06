@@ -1,5 +1,6 @@
-package io.github.zhengchalei;
+package io.github.zhengchalei.mapstruct.example;
 
+import io.github.mapstruct.BaseMapper;
 import org.mapstruct.Mapper;
 
 /**

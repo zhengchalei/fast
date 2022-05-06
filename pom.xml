@@ -18,6 +18,7 @@
         <mapstruct.version>1.5.0.RC1</mapstruct.version>
         <lombok.version>1.18.24</lombok.version>
 
+        <querydsl.version>4.4.0</querydsl.version>
     </properties>
 
     <modules>
@@ -26,6 +27,8 @@
         <module>fast-starters/fast-mapstruct-starter</module>
         <module>fast-examples</module>
         <module>fast-bom</module>
+        <module>fast-starters/fast-spring-data-jpa-starter</module>
+        <module>fast-examples/fast-spring-data-jpa-starter-example</module>
     </modules>
 
     <dependencyManagement>
