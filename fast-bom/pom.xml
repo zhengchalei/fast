@@ -18,6 +18,11 @@
             <artifactId>fast-mapstruct-starter</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.github.zhengchalei</groupId>
+            <artifactId>fast-spring-data-jpa-starter</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 
