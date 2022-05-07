@@ -15,7 +15,7 @@
         <dependency>
             <groupId>io.github.zhengchalei</groupId>
             <artifactId>fast-spring-cloud-nacos-starter</artifactId>
-            <version>1.0.1</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

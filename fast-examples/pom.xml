@@ -16,6 +16,7 @@
         <module>fast-mapstruct-starter-example</module>
         <module>fast-spring-cloud-nacos-starter-example</module>
         <module>fast-spring-cloud-dubbo-starter-example</module>
+        <module>fast-spring-data-jpa-starter-example</module>
     </modules>
 
     <build>
