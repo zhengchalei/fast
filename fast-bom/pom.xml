@@ -12,27 +12,33 @@
 
     <artifactId>fast-bom</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>io.github.zhengchalei</groupId>
-            <artifactId>fast-mapstruct-starter</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.zhengchalei</groupId>
-            <artifactId>fast-spring-data-jpa-starter</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.zhengchalei</groupId>
-            <artifactId>fast-spring-cloud-nacos-starter</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.zhengchalei</groupId>
-            <artifactId>fast-spring-cloud-dubbo-starter</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
+    <properties>
+        <rversion>1.0.1</rversion>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.github.zhengchalei</groupId>
+                <artifactId>fast-mapstruct-starter</artifactId>
+                <version>${rversion}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.zhengchalei</groupId>
+                <artifactId>fast-spring-data-jpa-starter</artifactId>
+                <version>${rversion}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.zhengchalei</groupId>
+                <artifactId>fast-spring-cloud-nacos-starter</artifactId>
+                <version>${rversion}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.zhengchalei</groupId>
+                <artifactId>fast-spring-cloud-dubbo-starter</artifactId>
+                <version>${rversion}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

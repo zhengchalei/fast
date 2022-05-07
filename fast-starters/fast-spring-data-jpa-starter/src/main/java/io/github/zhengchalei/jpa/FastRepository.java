@@ -10,4 +10,5 @@ import org.springframework.data.repository.NoRepositoryBean;
  **/
 @NoRepositoryBean
 public interface FastRepository<T, ID> extends JpaRepository<T, ID>, QuerydslPredicateExecutor<T>, JpaSpecificationExecutor<T> {
+
 }

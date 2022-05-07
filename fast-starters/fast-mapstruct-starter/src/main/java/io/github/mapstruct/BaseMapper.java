@@ -1,8 +1,10 @@
 package io.github.mapstruct;
 
-import io.github.mapstruct.matadata.Vo;
 import io.github.mapstruct.matadata.Dto;
+import io.github.mapstruct.matadata.Vo;
+import org.mapstruct.BeanMapping;
 import org.mapstruct.MappingTarget;
+import org.mapstruct.NullValuePropertyMappingStrategy;
 
 import java.util.Map;
 
@@ -29,6 +31,7 @@ public interface BaseMapper<E, D extends Dto, V extends Vo> {
 
     /**
      * map to entity
+     *
      * @param map map
      * @return entity
      */
@@ -66,6 +69,8 @@ public interface BaseMapper<E, D extends Dto, V extends Vo> {
      */
     D toDto(V vo);
 
-    // todo [margin / ignore null margin]
-    void mappingTarget(E source, @MappingTarget D dto);
+    void fireMerge(E source, @MappingTarget D dto);
+
+    @BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
+    void fireMergeIgnoreNull(E source, @MappingTarget D dto);
 }
