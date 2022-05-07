@@ -39,10 +39,12 @@
         <spring-cloud.version>2021.0.2</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
 
+
+        <dubbo.version>3.0.7</dubbo.version>
+
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <mapstruct.version>1.5.0.RC1</mapstruct.version>
         <lombok.version>1.18.24</lombok.version>
-
         <querydsl.version>4.4.0</querydsl.version>
 
 

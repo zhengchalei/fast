@@ -1,11 +1,12 @@
-package io.github.zhengchalei.jpa.example;
+package io.github.zhengchalei.nacos.example;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Main {
+public class FastSpringCloudNacosStarterExample {
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
+        SpringApplication.run(FastSpringCloudNacosStarterExample.class, args);
     }
 }

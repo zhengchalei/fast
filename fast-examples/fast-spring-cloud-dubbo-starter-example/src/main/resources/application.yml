@@ -1,0 +1,12 @@
+dubbo:
+  application:
+    name: ${spring.application.name}
+  scan:
+    base-packages: io.github.zhengchalei
+  registry:
+    address: nacos://127.0.0.1:8848
+spring:
+  application:
+    name: fast-spring-cloud-dubbo-starter-example
+server:
+  port: 0
