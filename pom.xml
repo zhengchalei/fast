@@ -7,7 +7,7 @@
     <groupId>io.github.zhengchalei</groupId>
     <artifactId>fast</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.3.2</version>
+    <version>1.0.3.3</version>
 
     <name>fast</name>
     <description>解决重复基础设施配置和提供框架最佳实践</description>

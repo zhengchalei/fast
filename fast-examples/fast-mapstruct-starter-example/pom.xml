@@ -5,7 +5,7 @@
     <parent>
         <artifactId>fast-examples</artifactId>
         <groupId>io.github.zhengchalei</groupId>
-        <version>1.0.3.2</version>
+        <version>1.0.3.3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>io.github.zhengchalei</groupId>
             <artifactId>fast-mapstruct-starter</artifactId>
-            <version>1.0.3.2</version>
+            <version>1.0.3.3</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
