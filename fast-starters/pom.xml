@@ -4,20 +4,33 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <artifactId>fast</artifactId>
+        <groupId>io.github.zhengchalei</groupId>
+        <version>1.0.2</version>
+    </parent>
+
     <modules>
         <module>fast-mapstruct-starter</module>
+        <module>fast-spring-web-starter</module>
         <module>fast-spring-data-jpa-starter</module>
         <module>fast-spring-cloud-nacos-starter</module>
         <module>fast-spring-cloud-dubbo-starter</module>
     </modules>
 
-    <parent>
-        <artifactId>fast</artifactId>
-        <groupId>io.github.zhengchalei</groupId>
-        <version>1.0.1</version>
-    </parent>
-
     <artifactId>fast-starters</artifactId>
     <packaging>pom</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.zhengchalei</groupId>
+            <artifactId>fast-core</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+    </dependencies>
 
 </project>
