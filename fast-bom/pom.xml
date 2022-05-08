@@ -5,7 +5,7 @@
     <parent>
         <artifactId>fast</artifactId>
         <groupId>io.github.zhengchalei</groupId>
-        <version>1.0.2</version>
+        <version>1.0.3.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
@@ -17,22 +17,22 @@
             <dependency>
                 <groupId>io.github.zhengchalei</groupId>
                 <artifactId>fast-mapstruct-starter</artifactId>
-                <version>${project.version}</version>
+                <version>1.0.3.2</version>
             </dependency>
             <dependency>
                 <groupId>io.github.zhengchalei</groupId>
                 <artifactId>fast-spring-data-jpa-starter</artifactId>
-                <version>${project.version}</version>
+                <version>1.0.3.2</version>
             </dependency>
             <dependency>
                 <groupId>io.github.zhengchalei</groupId>
                 <artifactId>fast-spring-cloud-nacos-starter</artifactId>
-                <version>${project.version}</version>
+                <version>1.0.3.2</version>
             </dependency>
             <dependency>
                 <groupId>io.github.zhengchalei</groupId>
                 <artifactId>fast-spring-cloud-dubbo-starter</artifactId>
-                <version>${project.version}</version>
+                <version>1.0.3.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
